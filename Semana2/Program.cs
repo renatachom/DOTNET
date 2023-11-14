@@ -1,9 +1,12 @@
-﻿#region ReadLine example
+﻿#region  DateTime Example
 
-Console.WriteLine("Please enter your name:");
-String? name = Console.ReadLine();
-Console.WriteLine($"Hello, {name}!");
+DateTime now = DateTime.Now;
+Console.WriteLine($"Current data and time: " + now.ToString());
 
-#region 
+DateTime today = DateTime.Today;
+Console.WriteLine($"Today's date: {today}");
 
-#region foreach example
+DateTime tomorrow = now.AddDays(1);
+Console.WriteLine($"Tomorrow's date: {tomorrow}");
+
+#endregion
