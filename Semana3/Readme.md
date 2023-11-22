@@ -5,7 +5,6 @@ Prof. Hélder Almeida
 
 Este repositório contém exercícios relacionados a conceitos como Tuplas, Expressões Lambda, LINQ, e outras técnicas em C#, ministrado na aula.
 
-## Exemplos
 
 ## Exercícios
 
